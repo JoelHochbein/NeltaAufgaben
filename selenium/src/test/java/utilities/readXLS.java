@@ -12,7 +12,7 @@ public class readXLS {
 	
 	@Test
 	public void dataReadTest() throws Exception {
-		File src = new File("\\src\\\\test\\\\resources\\\\testdata\\\\testdata.xlsx");
+		File src = new File("\\src\\test\\resources\\testdata\\testdata.xlsx");
 		
 		FileInputStream fis = new FileInputStream(src);
 		

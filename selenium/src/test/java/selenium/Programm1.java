@@ -12,14 +12,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Programm1 {
 	
-	public static String browser = "chrome"; //Browser Auswahl (später in XLS oder CSV)
+	
+	public static String browser = "edge"; //Browser Auswahl (später in XLS oder CSV)
 	
 	public static WebDriver driver;
+	@Test
 	public static void main(String[] args) {
 		
 		
@@ -50,11 +53,7 @@ public class Programm1 {
 		driver.get("https://demowebshop.tricentis.com/");
 		driver.manage().window().maximize();
 		
-		try {
-		    Thread.sleep(1000);
-		} catch(InterruptedException e) {                             //Kunde entscheidet sich statt den 8GB für 4GB
-		    System.out.println("got interrupted!");
-		}
+		
 		
 		WebElement hover = driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[2]/ul[1]/li[2]/a")); // Maus Hover über "Computers"
 		Actions action = new Actions(driver);
@@ -70,7 +69,7 @@ public class Programm1 {
 		    System.out.println("got interrupted!");
 		}
 		
-		driver.findElement(By.id("product_attribute_75_6_32_101")).click(); // 4GB Auswahl
+		
 		driver.findElement(By.id("product_attribute_75_5_31_96")).click(); // Prozessor Auswahl
 		driver.findElement(By.id("add-to-cart-button-75")).click(); //ADD TO CART
 		
@@ -146,6 +145,7 @@ public class Programm1 {
 		    System.out.println("got interrupted!");
 		}
 		driver.findElement(By.xpath("//*[@id=\"confirm-order-buttons-container\"]/input")).click();
+		driver.close();
 		}
 	}
 

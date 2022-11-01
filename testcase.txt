@@ -1,3 +1,19 @@
-webseite aufrufen -> login -> persönlicher bereich -> Überweisung 
-   -> Eingabe (Empfänger, IBAN, Betrag, Verwendungszweck, Ausführung wählen) 
-   -> Weiter bestätigung TAN-Verfahren -> Übersicht der Überweisung -> Bestätigen
+1. Website aufrufen
+2. Auf dem Reiter "Computers" hovern und auf "Desktops" klicken
+3. Auf "Simple Computer" klicken
+4. "8GB" Ram Auswahl und Prozessor "Slow"
+5. Auf "Add to cart" klicken
+6. Versandkosten berechnung Land Deutschland Auswählen, 
+   PLZ eingeben und auf "Estimate shipping" klicken
+7. "terms of service" zustimmten
+8. Auf "Checkout" klicken
+9. Auf "Checkout as Guest" klicken
+10.Eingabe Daten "Billing Address"
+11.Auf "Continue" klicken
+12.Auf "Continue" klicken
+13."2nd Day Air" auswählen
+14.Auf "Continue" klicken
+15. "Purchase Order" auswählen
+16. Auf "Continue" klicken
+17. Auf "Confirm" klicken
+18. Fenster schließen

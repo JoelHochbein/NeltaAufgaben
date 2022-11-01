@@ -1,0 +1,12 @@
+Selenium Tasks-Package
+
+Your Task:
+1.Find a page which you want to automate. x
+2.Create an E2E-Test Case using a Text Document. x
+3.Create a GIT Repository and clone your project to your local device. x
+4.Connect your Selenium with your local Repository. x
+5.Start with the automation of your Test Case using Selenium. x
+6.Adjust your script for better performance by using different methods and so on.
+7.Push your running E2E-Test Case to your remote branch and create a pull request.
+8.Share the GIT Repository with us to get the approval.
+

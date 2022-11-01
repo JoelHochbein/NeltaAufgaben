@@ -1,0 +1,17 @@
+
+Aufgabe3: GitBash Befehle
+          cd .. //Pfad wechseln
+          cd //Pfad auswählen
+          git init //git Ordner erstellen
+          git add //Datei/en selektieren (auswählen)
+          git commit -m //(-m Update Notiz für andere) Datei ins Repository hinzufügen 
+          git log //Notizen anzeigen     
+          git remote add origin https://github.com/JoelHochbein/NeltaAufgaben.git
+          git branch -M main
+          git push -u origin main //Projekt auf Github hochladen
+          ls //Dateien anzeigen lassen
+          git clone Websitelink // Projekt lokal klonen
+
+
+	  git add -> git commit -m -> git remote add origin "git url" -> git pull --rebase orgin main
+	  git push -u origin main

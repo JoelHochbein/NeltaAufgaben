@@ -1,0 +1,8 @@
+04.11:-Timer mit "WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("content")));"
+       ausgetauscht.
+	-config.properties, readproperties hinzugefügt
+	-Test aufgeteilt in 2 Klassen (BaseTest & MainTest)
+	-testng Plugin installiert und testng.xml Datei hinzugefügt
+	-locators.properties hinzugefügt und alle locator dort eingefügt und im MainTest ausgelesen
+	

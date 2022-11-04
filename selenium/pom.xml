@@ -77,6 +77,14 @@
 			<artifactId>selenium-edge-driver</artifactId>
 			<version>4.5.3</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.surefire/surefire-booter -->
+		<dependency>
+			<groupId>org.apache.maven.surefire</groupId>
+			<artifactId>surefire-booter</artifactId>
+			<version>3.0.0-M7</version>
+		</dependency>
+
+
 
 
 

@@ -22,14 +22,19 @@ public class BaseTest {
 	
 	public static WebDriver driver;
 	public static Properties prop = new Properties();
+	public static Properties loc = new Properties();
 	public static FileReader fr;
+	public static FileReader fr1;
 	
 	@BeforeTest
 	public void setUp() throws IOException {
 		
 		if(driver==null) {
-			FileReader fr = new FileReader("C:\\\\Users\\\\hochb\\\\git\\\\NeltaAufgaben\\\\selenium\\\\src\\\\test\\\\resources\\\\testdata\\\\config.properties");
+			FileReader fr = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\testdata\\config.properties");
+			FileReader fr1 = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\testdata\\locators.properties");
+			
 			prop.load(fr);
+			loc.load(fr1);
 		}
 		
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {

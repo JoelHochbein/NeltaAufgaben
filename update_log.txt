@@ -6,3 +6,4 @@
 	-testng Plugin installiert und testng.xml Datei hinzugefügt
 	-locators.properties hinzugefügt und alle locator dort eingefügt und im MainTest ausgelesen
 	
+06.11: -loginTest class hinzugefügt mit verschiedenen Emails und Passwörtern
